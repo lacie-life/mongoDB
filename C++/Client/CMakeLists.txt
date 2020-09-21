@@ -7,6 +7,8 @@ project(Client)
 # find QT5 and required components
 find_package(Qt5 COMPONENTS REQUIRED Core Gui Widgets)
 find_package(MAVSDK REQUIRED)
+find_package(mongocxx REQUIRED)
+find_package(bsoncxx REQUIRED)
 
 # need this to include the auto generated ui_mainwindow.h
 # file from the qt5_wrap_ui call below.
@@ -22,6 +24,9 @@ qt5_wrap_cpp(moc_sources ${project_headers})
 
 include_directories(${MOSQUITTO_INCLUDE_DIRS})
 include_directories(${MOSQUITTOPP_INCLUDE_DIRS})
+include_directories(${LIBMONGOCXX_INCLUDE_DIR})
+include_directories(${LIBBSONCXX_INCLUDE_DIR})
+
 add_executable(client_gui
         ${project_sources}
         ${project_headers}
@@ -38,6 +43,9 @@ target_link_libraries(client_gui
         MAVSDK::mavsdk
         /usr/lib/x86_64-linux-gnu/libmosquittopp.so)
 
-#target_link_libraries(client_gui /usr/lib/x86_64-linux-gnu/libmosquittopp.so)
+target_link_libraries(client_gui PRIVATE mongo::bsoncxx_shared)
+
+target_link_libraries(client_gui PRIVATE mongo::mongocxx_shared)
+
 
 
