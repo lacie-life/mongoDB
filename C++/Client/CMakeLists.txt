@@ -15,7 +15,7 @@ find_package(bsoncxx REQUIRED)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
 set(project_sources mainwindow.cpp main.cpp mqttconnection.cpp)
-set(project_headers mainwindow.h mqttconnection.h)
+set(project_headers mainwindow.h mqttconnection.h mongodbconnection.cpp mongodbconnection.h)
 set(project_ui mainwindow.ui)
 
 # wrap the ui file to a c++ header
@@ -24,6 +24,7 @@ qt5_wrap_cpp(moc_sources ${project_headers})
 
 include_directories(${MOSQUITTO_INCLUDE_DIRS})
 include_directories(${MOSQUITTOPP_INCLUDE_DIRS})
+
 include_directories(${LIBMONGOCXX_INCLUDE_DIR})
 include_directories(${LIBBSONCXX_INCLUDE_DIR})
 
