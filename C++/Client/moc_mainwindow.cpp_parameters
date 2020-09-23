@@ -1,0 +1,5 @@
+-I/home/lifezero/Github/mongoDB/C++/Client
+-I/home/lifezero/Github/mongoDB/C++/Client
+-o
+/home/lifezero/Github/mongoDB/C++/Client/moc_mainwindow.cpp
+/home/lifezero/Github/mongoDB/C++/Client/mainwindow.h

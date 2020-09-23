@@ -1,0 +1,3 @@
+/home/lifezero/Github/mongoDB/C++/Client/CMakeFiles/rebuild_cache.dir
+/home/lifezero/Github/mongoDB/C++/Client/CMakeFiles/edit_cache.dir
+/home/lifezero/Github/mongoDB/C++/Client/CMakeFiles/client_gui.dir

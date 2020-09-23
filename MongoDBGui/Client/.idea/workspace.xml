@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ec74f26-b32c-4713-ad0e-3fdd1b1d1841" name="Default Changelist" comment="" />
+    <list default="true" id="4ec74f26-b32c-4713-ad0e-3fdd1b1d1841" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="JupyterTrust" id="bfba4dc6-8d7e-4ca9-b247-9b0e917f7b81" />
   <component name="ProjectId" id="1edXuwVXs5oFE0aBsbTpmDmbVJ8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,10 +52,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../o_team_project/PyQt/ClientView" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration name="client" type="PythonConfigurationType" factoryName="Python">
       <module name="Client" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,7 +79,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python">
+      <module name="Client" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/PycharmProjects/pythonProject/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.client" />
+      <item itemvalue="Python.main" />
+    </list>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -87,6 +120,7 @@
       <workItem from="1594652671596" duration="3007000" />
       <workItem from="1594698580152" duration="6583000" />
       <workItem from="1594723468987" duration="10856000" />
+      <workItem from="1600835061764" duration="889000" />
     </task>
     <task id="LOCAL-00001" summary="created mongoDB client">
       <created>1594652993642</created>
@@ -176,7 +210,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -203,10 +237,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="update query by date" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1506" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594652899024">
-      <screen x="-1920" y="0" width="1920" height="1050" />
+    <state x="467" y="207" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600835491307">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="-1506" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1594652899024" />
+    <state x="467" y="207" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1600835491307" />
     <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594699212129">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -215,35 +250,40 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="47" y="118" width="1736" height="866" key="DiffContextDialog/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1594737677479" />
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1594715433739">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="781" y="307" width="424" height="484" key="FileChooserDialogImpl" timestamp="1600835949833">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="-1180" y="279" key="FileChooserDialogImpl/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1594652887571" />
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1594715433739" />
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1594739154961">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="781" y="307" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1600835949833" />
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1600835951231">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.bottom/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1594656129471" />
     <state width="1877" height="352" key="GridCell.Tab.0.bottom/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1594739154961" />
     <state width="1877" height="395" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1594715440375" />
-    <state width="1877" height="352" key="GridCell.Tab.0.center" timestamp="1594739154961">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1600835951231" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1600835951231">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.center/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1594656129471" />
     <state width="1877" height="352" key="GridCell.Tab.0.center/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1594739154961" />
     <state width="1877" height="395" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1594715440374" />
-    <state width="1877" height="352" key="GridCell.Tab.0.left" timestamp="1594739154961">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1600835951231" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1600835951231">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.left/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1594656129471" />
     <state width="1877" height="352" key="GridCell.Tab.0.left/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1594739154961" />
     <state width="1877" height="395" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1594715440374" />
-    <state width="1877" height="352" key="GridCell.Tab.0.right" timestamp="1594739154961">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1600835951231" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1600835951231">
+      <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1877" height="285" key="GridCell.Tab.0.right/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1594656129471" />
     <state width="1877" height="352" key="GridCell.Tab.0.right/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1594739154961" />
     <state width="1877" height="395" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1594715440374" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1600835951231" />
     <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1594739154961">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -260,8 +300,13 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1877" height="352" key="GridCell.Tab.1.right/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1594739154961" />
+    <state x="354" y="164" key="SettingsEditor" timestamp="1600835127397">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="354" y="164" key="SettingsEditor/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1600835127397" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Client$main.coverage" NAME="main Coverage Results" MODIFIED="1600835493199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Client$client.coverage" NAME="client Coverage Results" MODIFIED="1594738518134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

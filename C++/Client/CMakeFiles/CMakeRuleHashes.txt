@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+f936d0150ed251413f82778303f362e8 moc_mainwindow.cpp
+3dd681f60c401aefeebcd304b085dfca moc_mongodbconnection.cpp
+be9d0a4a7301bd2bc9bbd16f47f42614 moc_mqttconnection.cpp
+362349b073f5c3569e28013b325bd32c ui_mainwindow.h
