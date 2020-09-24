@@ -6,15 +6,39 @@
 
 #IncludeRegexTransform: 
 
+/home/lifezero/Github/mongoDB/C++/Client/main.cpp
+QApplication
+-
+mainwindow.h
+/home/lifezero/Github/mongoDB/C++/Client/mainwindow.h
+
 /home/lifezero/Github/mongoDB/C++/Client/mainwindow.cpp
 mainwindow.h
 /home/lifezero/Github/mongoDB/C++/Client/mainwindow.h
 ui_mainwindow.h
 /home/lifezero/Github/mongoDB/C++/Client/ui_mainwindow.h
+QMessageBox
+-
 
 /home/lifezero/Github/mongoDB/C++/Client/mainwindow.h
 QMainWindow
 -
+
+/home/lifezero/Github/mongoDB/C++/Client/moc_mainwindow.cpp
+mainwindow.h
+/home/lifezero/Github/mongoDB/C++/Client/mainwindow.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+/home/lifezero/Github/mongoDB/C++/Client/moc_mongodbconnection.cpp
+
+/home/lifezero/Github/mongoDB/C++/Client/mongodbconnection.cpp
+mongodbconnection.h
+/home/lifezero/Github/mongoDB/C++/Client/mongodbconnection.h
+
+/home/lifezero/Github/mongoDB/C++/Client/mongodbconnection.h
 
 /home/lifezero/Github/mongoDB/C++/Client/ui_mainwindow.h
 QtCore/QVariant
@@ -27,11 +51,11 @@ QtWidgets/QButtonGroup
 -
 QtWidgets/QHeaderView
 -
-QtWidgets/QLabel
--
 QtWidgets/QMainWindow
 -
 QtWidgets/QMenuBar
+-
+QtWidgets/QPushButton
 -
 QtWidgets/QStatusBar
 -
@@ -1108,10 +1132,6 @@ qbuttongroup.h
 qheaderview.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qheaderview.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
-qlabel.h
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
-
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
 qmainwindow.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
@@ -1120,6 +1140,14 @@ qmainwindow.h
 qmenubar.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenubar.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
+qmessagebox.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
+qpushbutton.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStatusBar
 qstatusbar.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstatusbar.h
@@ -1127,6 +1155,16 @@ qstatusbar.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
 qwidget.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtGui/qicon.h
+-
+QtGui/qkeysequence.h
+-
+QtWidgets/qwidget.h
+-
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h
 QtWidgets/qtwidgetsglobal.h
@@ -1220,6 +1258,12 @@ QtWidgets/qtwidgetsglobal.h
 QtWidgets/qwidget.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qwidget.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -1230,12 +1274,6 @@ QtWidgets/qwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qabstractitemview.h
--
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qframe.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
@@ -1262,6 +1300,18 @@ QtWidgets/qaction.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qmenu.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qdialog.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qabstractbutton.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h
